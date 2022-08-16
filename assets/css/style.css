@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+a,
+img,
+span,
+input,
+strong,
+button,
+textarea,
+ion-icon { display: block; 
+text-decoration: none;}
+
+img { height: auto; }
+
+ion-icon {
+  pointer-events: none;
+  color: #ffff;
+}
+
+
+
+.button {
+  display: inline-block;
+  background: #A10035;
+  color: #fff;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #FF869E;
+  color: black;
+}
+
+
+
+.img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section { padding-block: 60px; }
+
+.section-subtitle {
+  color: #A10035;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.h2,
+.h3 {
+  color: black;
+  font-family:'Poppins', sans-serif ;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+
+
+.section-title,
+.section-text { text-align: center; }
+
+.hero-title {
+  font-family:'Poppins', sans-serif ;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-block-end: 14px;
+  margin-top: 7%;
+}
+
+.hero-title strong {
+  font-size: 4rem;
+  font-weight: inherit;
+  margin-block-end: 8px;
+}
+
+
+.navbar-list {
+  margin-left: 200px;
+  margin-top: 5px;
+
+}
+.navbar-li{
+   display:inline-block;
+   font-family: 'Poppins', sans-serif;
+   padding: 5px 18px;
+
+}
+
+ .navbar-link{
+    color:black;
+    text-decoration: none;
+     
+    
+}
+
+.navbar-link:hover{
+    color:#FF869E;
+
+}
+
+.hero-content{
+    margin-top: 10%;
+    text-align: center;
+    
+}
+
+
+.skills-list {
+  display: grid;
+  gap: 10px;
+}
+
+.skills-item .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-end: 10px;
+ 
+}
+
+.skills-title,
+.skills-data {
+  font-size: 1.0rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.skills-progress-box {
+  background-color: rgb(197, 195, 195);
+  height: 20px;
+border-radius: 10px;
+size-adjust: 10px;
+}
+
+.skills-progress {
+  background-color: #A10035;
+  height: 100%;
+ border-radius: inherit;
+}
+.skills-list,
+  .blog-list {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+  }
+
+
+
+.container-flex{
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*=======PROJETOS=======*/
+
+.portfolio .section-title { margin-block-end: 18px; }
+
+.portfolio .section-text { margin-block-end: 80px; }
+
+.portfolio-list {
+  display: grid;
+  gap: 60px;
+}
+
+.portfolio-card {
+  background-color: #A10035;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 120px 20px;
+  border-radius: 20px;
+  font-family:'Poppins', sans-serif ;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.25s ease;
+  text-decoration: none;
+}
+
+.portfolio-list > li:nth-child(even) 
+.portfolio-card .card-subtitle {
+  color: #A10035;
+  margin-block-end: 5px;
+}
+
+ .portfolio-card .card-subtitle { font-size: 1.0rem; }
+
+
+
+
+.portfolio-card {
+    background-size: 115%;
+    padding-inline: 80px;
+  }
+
+  .portfolio-card:is(:hover, :focus) { background-size: 130%; }
+
+ .section-title{
+    font-size: 2.6rem;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif ;
+}
+
+.contact-card { padding: 100px; }
+
+  .contact .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+  }
+
+.social {
+  display: flex;
+  margin-top: 30px;
+  letter-spacing: 35px;
+}
+
+.social a {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  color: black;
+}
+
+.social a:hover {
+  color: #A10035;
+}
+#img-perfil{
+  margin-top: 10%;
+}
+.footer {
+  display: grid;
+  place-items: center;
+  padding: 50px;
+  background: #A10035;
+  color: #fff;
+}
+
+
+.footer-social a {
+  color: #fff;
+  font-size: 22px;
+  padding: 10px;
+}
+
+.graduation{
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif ; 
+ 
+}
+.curso{
+   font-weight: 600;
+   margin-top: 5%;
+   
+}
+
