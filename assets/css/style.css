@@ -13,7 +13,10 @@
 #width{
   width:100%;
 }
-
+@media screen and (max-width: 500px)
+{
+	body {background-color: red;}
+}
 
 
 a,
