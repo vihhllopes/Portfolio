@@ -8,6 +8,10 @@
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
   font-family: "Poppins", sans-serif;
+  
+}
+body {
+  width: 100%;
 }
 
 
@@ -20,7 +24,8 @@ strong,
 button,
 textarea,
 ion-icon { display: block; 
-text-decoration: none;}
+text-decoration: none;
+}
 
 img { height: auto; }
 
